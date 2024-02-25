@@ -2,15 +2,30 @@
 	.container{
 		max-width: 960px;
 	}
+	.navigation{
+			width: 420px;
+	}
 }
 @media screen and (max-width: 990px) {
 	.container{
 		max-width: 750px;
 	}
+.header_btn{
+	margin: auto;
+	margin-top: 15px;
+}
+
 }
 @media screen and (max-width: 780px) {
 	.container{
 		max-width: 510px;
+	}
+	.navigation {
+		margin: auto;
+	}
+	.headre_logo{
+		margin: auto;
+		margin-top: 15px;
 	}
 }
 @media screen and (max-width: 540px) {

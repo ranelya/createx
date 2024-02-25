@@ -127,7 +127,9 @@ section {
 	padding: 14px 0;
 	transition: 0.3s;
 }
-
+.btn_main:hover{
+	scale: 1.1;
+}
 .link {
 	transition: 0.3s;
 }
@@ -150,7 +152,7 @@ header {
 
 .header_nav {
 	margin: auto;
-	width: 1230px;
+	/* width: 1230px; */
 	margin-bottom: 200px;
 }
 
@@ -177,6 +179,7 @@ header {
 	height: 52px;
 	background: #7772F1;
 	color: white;
+	transition: 0.3s;
 }
 
 .header_tittle {
@@ -435,15 +438,18 @@ header {
 }
 
 /* freequently */
-.freequently_main{
+.freequently_main {
 	margin-bottom: 74px;
 }
+
 .freequently_left {
 	width: 60%;
 }
-.freequently_right{
+
+.freequently_right {
 	width: 30%;
 }
+
 .freequently_tit {
 	font-size: 46px;
 	font-weight: 900;
@@ -529,17 +535,19 @@ header {
 .accordion-option .toggle-accordion.active:before {
 	content: "Collapse All";
 }
-.freequently_btn{
+
+.freequently_btn {
 	background: #7772F1;
-    width: 185px;
-    height: 44px;
-    color: white;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    float: left;
+	width: 185px;
+	height: 44px;
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	float: left;
 }
-.freequently_btn_icon{
+
+.freequently_btn_icon {
 	width: 16px;
 	height: 16px;
 	margin-left: 8px;
