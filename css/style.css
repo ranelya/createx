@@ -620,8 +620,10 @@ header {
 
 .price-cards-wrap {
 	display: flex;
-	justify-content: space-between; /* Adjust this according to your spacing preference */
-	flex-wrap: wrap; /* Allow the cards to wrap to the next line */
+	justify-content: space-between;
+	/* Adjust this according to your spacing preference */
+	flex-wrap: wrap;
+	/* Allow the cards to wrap to the next line */
 }
 
 
@@ -636,15 +638,15 @@ header {
 	box-shadow: 7px 25px 65px 3px rgba(166, 166, 166, 1);
 }
 
-.cost{
-font-family: 'Lato';
-font-size: 46px;
-font-weight: 900;
-line-height: 60px;
-color: #7772F1;
+.cost {
+	font-family: 'Lato';
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 60px;
+	color: #7772F1;
 }
 
-.cost span{
+.cost span {
 	font-size: 20px;
 	line-height: 30px;
 	position: relative;
@@ -652,21 +654,21 @@ color: #7772F1;
 }
 
 
-.price_txt{
-font-family: 'Lato';
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-background: url(img/Mark.png);
+.price_txt {
+	font-family: 'Lato';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	background: url(img/Mark.png);
 }
 
-.price_txt span{
+.price_txt span {
 	color: #9A9CA5;
 }
 
-.price_btn{
+.price_btn {
 	border: 2px solid #7772F1;
-  border-radius: 10px;
+	border-radius: 10px;
 	padding: 10px 5px;
 	width: 150px;
 	margin: 0 auto;
@@ -675,23 +677,75 @@ background: url(img/Mark.png);
 	font-size: 14px;
 }
 
-.price_cards_black{
+.price_cards_black {
 	background-color: #1E212C;
 }
 
-.price-card_tit_white{
+.price-card_tit_white {
 	color: #FFFFFF;
 }
 
-.cost_green{
+.cost_green {
 	color: #03CEA4;
 }
 
-.price_txt_black{
+.price_txt_black {
 	color: #FFFFFF;
 }
 
-.price_btn_blue{
+.price_btn_blue {
 	background-color: #7772F1;
 	color: #FFFFFF;
+}
+
+
+.clients_tit {
+	text-align: center;
+}
+
+.clients_review {
+	display: flex;
+	gap: 20px;
+ align-items: center;
+ margin-top: 30px;
+
+}
+
+.client {
+	width: 72px;
+	height: 72px;
+}
+
+.clients_txt {
+	width: 752px;
+	height: 120px;
+	margin-top: 90px;
+	font-family: 'Lato';
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+  color: #424551;
+}
+
+.clients_name{
+font-family: 'Lato';
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.clients_name span{
+	color: #787A80;
+}
+
+.comma{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: -130px;
+	left: -35px;
 }
