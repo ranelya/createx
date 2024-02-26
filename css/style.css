@@ -577,6 +577,7 @@ header {
 	width: 400px;
 	margin: 0 auto;
 	margin-top: 50px;
+	border: 1px solid #7772F1 ;
 }
 
 .tabs a {
